@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">鞭子</string>
+    <string name="shake_whip">抽！</string>
+    <string name="market_url">https://market.android.com/details\?id=com.hipipal.whip</string>
+    <string name="about_content">每个人都应该有条鞭子的！</string>
+    <string name="share_info">每个人都应该有条鞭子的！ {0}</string>
+    <string name="team">在facebook关注我们 http://facebook.com/hipipal</string>
+    
+</resources>

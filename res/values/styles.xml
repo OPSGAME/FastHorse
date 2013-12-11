@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+** Copyright (C) 2010 Cyril Mottier (http://www.cyrilmottier.com)
+**
+** Licensed under the Apache License, Version 2.0 (the "License");
+** you may not use this file except in compliance with the License.
+** You may obtain a copy of the License at
+**
+**     http://www.apache.org/licenses/LICENSE-2.0
+**
+** Unless required by applicable law or agreed to in writing, software
+** distributed under the License is distributed on an "AS IS" BASIS,
+** WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+** See the License for the specific language governing permissions and
+** limitations under the License.
+*/
+-->
+
+<resources>
+
+
+   <style name="NormalText" parent="@style/TextAppearance.Large">
+        <item name="android:textSize">15dp</item>
+        <item name="android:layout_width">wrap_content</item>
+	    <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    
+    <style name="LinkText_Largest" parent="@style/TextAppearance.Large">
+        <item name="android:textSize">30dp</item>
+        <item name="android:textColor">@color/cwhite</item>
+        <item name="android:textColorLink">@color/cwhite</item>
+        <item name="android:layout_width">wrap_content</item>
+	    <item name="android:layout_height">wrap_content</item>
+    </style>    
+    <style name="LinkText_Large" parent="@style/TextAppearance.Large">
+        <item name="android:textSize">20dp</item>
+        <item name="android:textColor">@color/cwhite</item>
+        <item name="android:textColorLink">@color/cwhite</item>
+        <item name="android:layout_width">wrap_content</item>
+	    <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="LinkText_Mid" parent="@style/TextAppearance.Large">
+        <item name="android:textSize">16dp</item>
+        <item name="android:textColor">@color/cwhite</item>
+        <item name="android:textColorLink">@color/cwhite</item>
+        <item name="android:layout_width">wrap_content</item>
+	    <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="TextTitle_Normal" parent="@style/TextAppearance.Large">
+        <item name="android:textSize">18dp</item>
+        <item name="android:textColor">@color/cwhite</item>
+        <item name="android:layout_width">wrap_content</item>
+	    <item name="android:layout_height">wrap_content</item>
+    </style>
+ 
+    <style name="blue_button.full">
+        <item name="android:padding">10dp</item>
+        <item name="android:layout_marginLeft">40dp</item>
+        <item name="android:layout_marginRight">40dp</item>
+        
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>    
+
+	<style name="Passinger.Widget.TabIndicator" parent="@style/GreenDroid.Widget">
+		<item name="android:layout_height">?attr/gdTabIndicatorHeight</item>
+		<item name="android:textAppearance">?attr/gdTabIndicatorTextAppearance</item>
+		<item name="android:background">?attr/gdTabIndicatorBackground</item>
+	</style>
+	
+    <style name="general"></style>
+	
+	<style name="notitle" parent="general">
+	    <item name="android:windowNoTitle">true</item>
+	</style>
+	
+	<!-- fonts -->
+	<style name="LinkText" parent="@android:style/TextAppearance">
+        <item name="android:textColor">#06C</item>
+    </style>
+    
+	<style name="LinkText.Bold">
+        <item name="android:textStyle">bold</item>
+    </style>
+    
+	<style name="LinkText.Bold.Big">
+        <item name="android:textSize">14sp</item>
+    </style>
+    
+    <style name="LinkText.Bold.Huge">
+        <item name="android:textSize">18sp</item>
+    </style>
+    
+    <style name="user_name" parent="LinkText.Bold.Big">
+    </style>
+    <style name="user_screen_name" parent="LinkText.Bold.Big">
+    </style>
+    
+	<style name="normalText" parent="@android:style/TextAppearance">
+        <item name="android:textColor">#444</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+	<style name="shineText" parent="@android:style/TextAppearance">
+        <item name="android:textColor">@color/cwhite</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">bold</item>    
+    </style>    
+    <style name="normalText.Big">
+        <item name="android:textSize">18sp</item>
+        <item name="android:typeface">serif</item>
+    </style>
+    
+    <style name="normalText.span">
+        <item name="android:textColor">#888</item>
+    </style>
+    
+    <style name="feed_icon">
+        <item name="android:layout_width">25.0dip</item>
+        <item name="android:layout_height">25.0dip</item>
+    </style> 
+        
+    <style name="user_head">
+        <item name="android:layout_width">60.0dip</item>
+        <item name="android:layout_height">60.0dip</item>
+    </style> 
+    
+    <style name="user_head2">
+        <item name="android:layout_width">75.0dip</item>
+        <item name="android:layout_height">75.0dip</item>
+    </style>    
+
+    
+    
+    
+
+	<style name="ThumbnailItemView" />
+	<style name="ThumbnailItemView.Text">
+		<item name="android:layout_height">?attr/gdItemViewPreferredHalfHeight</item>
+		<item name="android:textAppearance">?attr/gdTextAppearanceLarge</item>
+	</style>
+	<style name="ThumbnailItemView.Subtitle">
+		<item name="android:layout_height">?attr/gdItemViewPreferredHalfHeight</item>
+		<item name="android:textAppearance">?attr/gdTextAppearanceSmall</item>
+	</style>
+	<style name="ThumbnailItemView.Thumbnail">
+		<item name="android:layout_width">?attr/gdItemViewPreferredHeight</item>
+		<item name="android:layout_marginRight">?attr/gdDrawableMargin</item>
+	</style>
+
+	<!--选项卡box-->
+	<style name="p_line">
+		<item name="android:background">@drawable/horizontal_separation_line</item>
+		<item name="android:layout_width">fill_parent</item>
+		<item name="android:layout_height">1.0dip</item>
+		<item name="android:layout_centerVertical">true</item>
+		<item name="android:layout_margin">10dip</item>		
+	</style>
+		
+	<style name="gridBox_no_padding">
+		<item name="android:background">@drawable/panel_bg</item>
+		<item name="android:layout_width">fill_parent</item>
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:layout_margin">10dip</item>
+	</style>	
+			
+	<style name="gridBox">
+		<item name="android:background">@drawable/panel_bg</item>
+		<item name="android:layout_width">fill_parent</item>
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:layout_marginTop">10dip</item>
+		<item name="android:layout_marginBottom">10dip</item>
+		<item name="android:layout_marginLeft">10dip</item>
+		<item name="android:layout_marginRight">10dip</item>
+		
+		<item name="android:paddingLeft">10dip</item>
+		<item name="android:paddingRight">10dip</item>
+		<item name="android:paddingTop">10dip</item>
+		<item name="android:paddingBottom">10dip</item>
+		
+	</style>	
+	<style name="gridBox_Title">
+		<item name="android:textSize">15dp</item>
+		<item name="android:textColor">#FF7D899D</item>
+		<item name="android:gravity">center_vertical</item>
+		<item name="android:layout_width">wrap_content</item>
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:layout_marginLeft">10dip</item>
+		<item name="android:layout_marginTop">5dp</item>
+		<item name="android:layout_alignParentLeft">true</item>
+		<item name="android:layout_alignParentTop">true</item>
+	</style>
+	<style name="gridBox_Value">
+		<item name="android:textSize">15dp</item>
+		<item name="android:layout_width">wrap_content</item>
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:layout_marginLeft">10dip</item>
+	</style>	
+	<style name="gridBox_RTag">
+		<item name="android:layout_width">wrap_content</item>
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:layout_alignParentRight">true</item>
+		<item name="android:layout_marginRight">5dp</item>
+		<item name="android:layout_marginTop">5dp</item>		
+	</style>	
+	
+	<style name="gridBox_line">
+		<item name="android:background">@drawable/horizontal_separation_line</item>
+		<item name="android:layout_width">fill_parent</item>
+		<item name="android:layout_height">1.0dip</item>
+		<item name="android:layout_centerVertical">true</item>
+	</style>		
+	<style name="gridBox_desc">
+		<item name="android:layout_width">fill_parent</item>
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:layout_marginTop">5dp</item>
+		<item name="android:textColor">#FF7D899D</item>
+		<item name="android:layout_marginLeft">10dip</item>		
+		<item name="android:layout_marginRight">10dip</item>		
+	</style>			
+	
+	<style name="prompt_title">
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:layout_width">wrap_content</item>
+		<item name="android:layout_marginLeft">20dip</item>
+		<item name="android:layout_marginRight">20dip</item>
+		<item name="android:gravity">left</item>		
+	</style>	
+	<style name="prompt_value">
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:layout_width">fill_parent</item>
+		<item name="android:layout_margin">10dip</item>
+		<item name="android:scrollHorizontally">true</item>
+		<item name="android:autoText">false</item>		
+		<item name="android:capitalize">none</item>		
+		<item name="android:gravity">fill_horizontal</item>		
+		<item name="android:gravity">fill_horizontal</item>		
+		
+	</style>		
+</resources>

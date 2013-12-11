@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Whip</string>
+    <string name="shake_whip">WHIP!</string>
+    <string name="market_url">https://market.android.com/details\?id=com.hipipal.whip</string>
+    <string name="about_content">Everyone should have a WHIP!</string>
+    <string name="share_info">Everyone should have a WHIP! {0}</string>
+    <string name="team">Like us at http://facebook.com/hipipal</string>
+    <string name="facebook_link">http://facebook.com/hipipal</string>
+    <string name="whip_1">Voice One</string>
+    <string name="whip_2">Voice Two</string>
+    
+</resources>
